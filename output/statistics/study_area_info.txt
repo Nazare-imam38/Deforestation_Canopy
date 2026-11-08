@@ -1,0 +1,10 @@
+Study Area Information
+======================
+Name: Tropical_Forest_Area
+Number of features: 1
+CRS: EPSG:4326
+Bounding Box:
+  Longitude: 102.5 to 103.5
+  Latitude: 12 to 13
+Area: 12071.38 km²
+

@@ -1,0 +1,108 @@
+# ==============================================================================
+# PROFESSIONAL ACADEMIC .GITIGNORE
+# Project: Multi-Temporal Satellite Image Processing & Disturbance Analytics
+# Author: Nazar E Imam
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. LARGE SATELLITE RASTER & VECTOR DATA (Exceeds GitHub limits; strictly local)
+# ------------------------------------------------------------------------------
+data/Landsat/
+data/shapefiles/*.shp
+data/shapefiles/*.shx
+data/shapefiles/*.dbf
+data/shapefiles/*.prj
+data/shapefiles/*.cpg
+*.tar
+*.tar.gz
+*.zip
+*.tif
+*.tiff
+*.TIF
+*.TIFF
+*.jp2
+*.h5
+*.hdf
+*.nc
+
+# Retain directory structure and templates in Git
+!data/
+!data/training/
+!data/training/training_data_template.csv
+!data/shapefiles/
+!data/shapefiles/.gitkeep
+!data/Landsat/.gitkeep
+
+# ------------------------------------------------------------------------------
+# 2. PROCESSED SCIENTIFIC OUTPUTS (Heavy multi-gigabyte rasters)
+# ------------------------------------------------------------------------------
+output/
+!output/
+!output/.gitkeep
+!output/statistics/
+!output/change_detection/deforestation_statistics.csv
+!output/deforestation_report.txt
+
+# Keep curated visuals in Research_Audit_Package
+!Research_Audit_Package/08_Research_Visuals/*.png
+
+# ------------------------------------------------------------------------------
+# 3. NODE.JS & NEXT.JS WEB DASHBOARD ARTIFACTS
+# ------------------------------------------------------------------------------
+dashboard/node_modules/
+dashboard/.next/
+dashboard/out/
+dashboard/build/
+dashboard/*.tsbuildinfo
+dashboard/npm-debug.log*
+dashboard/yarn-debug.log*
+dashboard/yarn-error.log*
+dashboard/.pnpm-debug.log*
+
+# Public directory large raster caches
+dashboard/public/*.tif
+dashboard/public/*.tiff
+
+# ------------------------------------------------------------------------------
+# 4. R ENVIRONMENT, USER CACHES & SENSITIVE SESSIONS
+# ------------------------------------------------------------------------------
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+
+# ------------------------------------------------------------------------------
+# 5. GOOGLE EARTH ENGINE & PYTHON RUNTIMES
+# ------------------------------------------------------------------------------
+.ee/
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+*.env.local
+*.env.*.local
+.venv/
+venv/
+ENV/
+
+# ------------------------------------------------------------------------------
+# 6. OPERATING SYSTEM & EDITOR NOISE
+# ------------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+*.log
+.vscode/
+.idea/
+
+# Empty scratch/temp files
+detail.pdf
+
+# ------------------------------------------------------------------------------
+# 7. AUDIT & RESEARCH ARTIFACT ARCHIVES
+# ------------------------------------------------------------------------------
+# Keep the markdown reports and curated visuals in Git, ignore the ZIP
+Research_Audit_Package.zip

@@ -1,0 +1,11 @@
+DEFORESTATION DETECTION REPORT SUMMARY
+=======================================
+
+Generated: 2025-11-23 01:51:40 
+
+KEY FINDINGS:
+-------------
+Deforestation Area: 296.98 km² ( 29698  hectares)
+Deforestation Percentage: 0.82 %
+
+For full details, see the HTML report: D:/RStudio/Deforestation Project/output/report/deforestation_detection_report.html 

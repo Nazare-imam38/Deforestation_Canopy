@@ -1,0 +1,28 @@
+DEFORESTATION DETECTION REPORT
+==============================
+
+Study Area: Tropical_Forest_Area 
+Analysis Date: 20488 
+
+TIME SERIES INFORMATION
+-----------------------
+DEFORESTATION STATISTICS
+------------------------
+NDVI Change (mean) : 0.0045 
+NDVI Change (min) : -0.3859 
+NDVI Change (max) : 0.5209 
+dNBR (mean) : 0.0071 
+dNBR (min) : -0.9004 
+dNBR (max) : 0.8107 
+Deforestation Area (ha) : 29698.11 
+Deforestation Area (km²) : 296.98 
+Deforestation % : 0.82 
+
+CLASSIFICATION SUMMARY
+----------------------
+Reforestation : 178147 pixels ( 0.44 %)
+No Change : 39646120 pixels ( 98.73 %)
+Low : 329727 pixels ( 0.82 %)
+Moderate : 152 pixels ( 0 %)
+High : 75 pixels ( 0 %)
+Severe : 25 pixels ( 0 %)
